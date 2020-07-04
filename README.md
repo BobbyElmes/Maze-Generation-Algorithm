@@ -7,3 +7,5 @@ Read the Data flow diagram for an overview of how it all fits together.
 
 A modified version of this was used in my full mobile game "Crazy Mazy" to generate each level.
 Crazy Mazy: https://crazy-mazy.app.link/
+
+TO GENERATE MAZES OF 100x100 AND OVER, YOU SHOULD CHANGE 'plotPath' in 'Paths.cs' TO BE A LOOP RATHER THAN A RECURSIVE ALGORITHM TO AVOID STACK OVERFLOW
